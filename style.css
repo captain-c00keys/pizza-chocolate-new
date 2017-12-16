@@ -32,14 +32,14 @@ body {
   font-size: 30px;
   margin-bottom: -15px;
 }
-.recipe_name{
+.recipe-name{
   font-family: 'Anton', sans-serif;
   font-size: 40px;
   display: block;
   margin-top: 60px;
 
 }
-.post_date{
+.post-date{
   font-family: 'Abel', sans-serif;
   font-size: 15px;
 
@@ -55,7 +55,7 @@ ul li {
   font-family: 'Abel', sans-serif;
   color: #777;
 }
-.header_right {
+.header-right {
   float: right;
 }
 
@@ -63,22 +63,23 @@ ul li {
   display: inline;
 }
 
-.break_line {
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 20px;
+.break-line-top {
+  display: inline-block;
+  width: 900px;
+  border-bottom: 7px #eaeaea solid;
+  padding-top: 15px;
 }
-.shopping_list {
+.shopping-list {
   display: block
 }
-.recipe_steps {
+.recipe-steps {
   padding: 10px 0px;
   text-indent: 2em;
   color: #666;
   line-height: 1.5;
 }
 
-.share_icons {
+.share-icons {
   float: right;
   list-style: none;
   display: inline;
@@ -89,12 +90,12 @@ ul li {
 input[type="checkbox"]:checked + label {
  text-decoration: line-through;
 }
-.shopping_list {
+.shopping-list {
   height: 300px;
   margin-bottom: 15px;
 }
 
-.shopping_list {
+.shopping-list {
   margin-right: 100px;
   margin-left: 60px;
   margin-top: 37px;
@@ -109,7 +110,7 @@ font-size: 18px;
 }
 
 }
-.header_logo {
+.header-logo {
   font-size: 8px;
   display: block;
   margin-left: 55px;
