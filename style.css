@@ -1,0 +1,12 @@
+body { //goes with body with body - gene
+  width: 900px;
+  margin: 0 auto;
+}
+
+p.instructions { //goes with instructions - gene
+  text-indent: 30px;
+}
+
+#profile-pic { //goes with womans profile pic - gene
+  float: left;
+}
