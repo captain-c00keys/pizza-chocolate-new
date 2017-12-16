@@ -15,6 +15,7 @@ p.instructions {
 
 #clicker {
   float: right;
+  
 }
 
 #bottom-center {
@@ -25,13 +26,9 @@ p.instructions {
   margin-left: 90px;
 }
 
-body {
-  width: 900px;
-  margin: 0 auto;
-}
-
 .fork-logo {
   display: inline-block;
+
 }
 .title {
   display:inline-block;
@@ -41,46 +38,56 @@ body {
   display: block;
   font-family: 'Yellowtail', cursive;
   font-size: 30px;
+  margin-bottom: -15px;
+}
+.recipe-name{
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  display: block;
+  margin-top: 60px;
+
+}
+.post-date{
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+
 }
 ul li {
   display: inline;
 }
 
-div.header_icons {
-  clear: both;
-}
+
 .best-food {
   display: block;
   font-size: 10px;
   font-family: 'Abel', sans-serif;
   color: #777;
 }
-.header_right {
+.header-right {
   float: right;
 }
-div.header_icons {
-  clear: both;
-}
-span.print-btn{
+
+.print-btn{
   display: inline;
 }
 
-.break_line {
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 20px;
+.break-line-top {
+  display: inline-block;
+  width: 900px;
+  border-bottom: 7px #eaeaea solid;
+  padding-top: 15px;
 }
-.shopping_list {
+.shopping-list {
   display: block
 }
-div.recipe_steps p {
+.recipe-steps {
   padding: 10px 0px;
   text-indent: 2em;
   color: #666;
   line-height: 1.5;
 }
 
-ul.share_icons {
+.share-icons {
   float: right;
   list-style: none;
   display: inline;
@@ -91,12 +98,12 @@ ul.share_icons {
 input[type="checkbox"]:checked + label {
  text-decoration: line-through;
 }
-div.shopping_list {
+.shopping-list {
   height: 300px;
   margin-bottom: 15px;
 }
 
-ul.shopping_list {
+.shopping-list {
   margin-right: 100px;
   margin-left: 60px;
   margin-top: 37px;
@@ -104,14 +111,29 @@ ul.shopping_list {
   display: inline-grid;
 }
 
-label {
+
+.instructions {
 font-family: 'Patrick Hand', cursive;
 font-size: 18px;
 }
 
 }
-.header_logo p {
+.header-logo {
   font-size: 8px;
   display: block;
   margin-left: 55px;
+}
+.footer-line-l {
+  display: inline-block;
+  float: left;
+  width: 423px;
+  border-bottom: 1px #eaeaea solid;
+  padding-top: 15px;
+}
+.footer-line-r {
+  display: inline-block;
+  float: right;
+  width: 423px;
+  border-bottom: 1px #eaeaea solid;
+  padding-top: 15px;
 }
