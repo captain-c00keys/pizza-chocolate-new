@@ -13,22 +13,9 @@ p.instructions {
   float: left;
 }
 
-#clicker {
-  position: relative;
-  float: right;
-  width: 150px;
-  font-size: 11px;
-  height: 40px;
-  bottom: -20px;
-  
-}
-
-#bottom-center {
-  text-align: center;
-}
-
-.indent {
-  margin-left: 90px;
+body {
+  width: 900px;
+  margin: 0 auto;
 }
 
 .fork-logo {
@@ -45,16 +32,27 @@ p.instructions {
   font-size: 30px;
   margin-bottom: -15px;
 }
+
+.break-top{
+  width: 900px;
+  height: 10px;
+  background-image: repeating-linear-gradient(30deg, transparent, transparent 1px, gray 15px, gray 20px);
+  margin-top: 25px;
+}
+
 .recipe-name{
   font-family: 'Anton', sans-serif;
   font-size: 40px;
   display: block;
   margin-top: 60px;
-
+  margin-bottom: 1px;
 }
+
 .post-date{
   font-family: 'Abel', sans-serif;
   font-size: 15px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 
 }
 ul li {
@@ -70,21 +68,21 @@ ul li {
 }
 .header-right {
   float: right;
+  padding-top: 20px;
 }
 
 .print-btn{
   display: inline;
+  float: right;
+
+}
+.print{
+  display: inline;
+  float: right;
+  margin-top: 1px;
+  font-size: 8px
 }
 
-.break-line-top {
-  display: inline-block;
-  width: 900px;
-  border-bottom: 7px #eaeaea solid;
-  padding-top: 15px;
-}
-.shopping-list {
-  display: block
-}
 .recipe-steps {
   padding: 10px 0px;
   text-indent: 2em;
@@ -103,12 +101,14 @@ ul li {
 input[type="checkbox"]:checked + label {
  text-decoration: line-through;
 }
-.shopping-list {
+/*.shopping-list {
   height: 300px;
   margin-bottom: 15px;
-}
+  display: block;
+}*/
 
 .shopping-list {
+  font-family: 'Patrick Hand', cursive;
   margin-right: 100px;
   margin-left: 60px;
   margin-top: 37px;
@@ -118,7 +118,7 @@ input[type="checkbox"]:checked + label {
 
 
 .instructions {
-font-family: 'Patrick Hand', cursive;
+
 font-size: 18px;
 }
 
