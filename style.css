@@ -14,10 +14,12 @@ p.instructions {
 }
 
 #clicker {
+  position: relative;
   float: right;
   width: 150px;
   font-size: 11px;
   height: 40px;
+  bottom: -20px;
 }
 
 #bottom-center {
