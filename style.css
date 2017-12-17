@@ -1,3 +1,9 @@
+.line-space {
+  margin: 7px;
+  top-margin: 15px;
+  /*gene*/
+}
+
 /*goes with body with body - gene*/
 body {
   width: 900px;
@@ -13,9 +19,31 @@ p.instructions {
   float: left;
 }
 
-body {
-  width: 900px;
-  margin: 0 auto;
+#clicker {
+  position: relative;
+  float: right;
+  width: 150px;
+  font-size: 13px;
+  height: 40px;
+  bottom: -20px;
+  background-color: #b37700;
+  color: #cccccc;
+}
+
+footer div.footer-1 {
+  display: inline-block;
+  float: left;
+  width: 423px;
+  border-bottom: 1px #eaeaea solid;
+  padding-top: 15px;
+}
+
+#bottom-center {
+  text-align: center;
+}
+
+.indent {
+  margin-left: 90px;
 }
 
 .fork-logo {
