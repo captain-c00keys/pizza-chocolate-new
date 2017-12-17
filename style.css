@@ -15,6 +15,9 @@ p.instructions {
 
 #clicker {
   float: right;
+  width: 150px;
+  font-size: 11px;
+  height: 40px;
 }
 
 #bottom-center {
